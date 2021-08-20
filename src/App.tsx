@@ -1,9 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function App(): React.ReactElement {
   return <div className="App">Hello, world!</div>;
 }
-
-export default App;
